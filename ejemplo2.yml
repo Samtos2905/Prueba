@@ -1,0 +1,13 @@
+name: flujotrabajo1
+
+on: [push]
+
+jobs:
+  prueba1:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Mensaje
+        run: echo "Primera Iteraccion con Action"
+
+        
